@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1 class="title">BMI Calculator</h1>
+    <div class="header-container">
+      <form class="bmi-form">
+        <input type="text" required placeholder="Enter your name" id="name" />
+        <input
+          type="number"
+          placeholder="Enter your weight (kg)"
+          id="weight"
+          required
+        />
+        <input
+          type="number"
+          placeholder="Enter your height (cm)"
+          id="height"
+          required
+        />
+        <button class="calculatebtn" id="bmi-calculate" type="button">Calculate</button>
+        <button class="calculatebtn red" id="reset" type="button">Reset</button>
+        <p id="result"></p>
+      </form>
+      <img
+        src="piret-ilver-98MbUldcDJY-unsplash.jpg"
+        width="800"
+        height="500"
+        alt=""
+      />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
